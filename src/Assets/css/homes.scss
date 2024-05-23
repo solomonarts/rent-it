@@ -1,0 +1,124 @@
+.homes__main {
+  height: 100%;
+  min-height: 80dvh;
+  width: 100%;
+
+  .top__divider {
+    height: 2px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.267);
+    position: relative;
+    margin: 0 auto;
+    border-radius: 30px;
+
+    &::after {
+      position: absolute;
+      content: attr(data-text);
+      text-align: center;
+      align-content: center;
+      font-size: 20px;
+      font-weight: 700;
+      color: rgba(0, 0, 0, 0.644);
+      height: 20px;
+      width: 10%;
+      background-color: rgb(241 245 249);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .homes__items {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    .home__card {
+      height: 300px;
+      margin: 10px auto;
+      width: 240px;
+      border: 1px solid #00000020;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #fff;
+      cursor: pointer;
+      box-shadow: 0.5px 0.5px 6px 0.2px #0000002c;
+      transition: all 0.5s ease-in-out;
+
+      &:hover {
+        .home__card__img {
+          &::after {
+            height: 100%;
+            content: attr(data-text);
+            padding: 5px;
+            text-align: justify;
+          }
+        }
+
+        box-shadow: 0.5px 0.5px 6px 0.2px #1e013f7a;
+      }
+
+      .home__card__img {
+        height: 65%;
+        width: 100%;
+        position: relative;
+
+        .home__amenitites {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 30%;
+          width: 100%;
+          font-size: 15px;
+          color: #fff;
+          z-index: 4;
+          justify-content: space-evenly;
+          padding: 0 5px;
+        }
+
+        &::after {
+          position: absolute;
+          content: "";
+          width: 100%;
+          height: 50%;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-image: linear-gradient(
+            to top,
+            rgb(0, 4, 14),
+            rgba(0, 4, 14, 0.13)
+          );
+          color: #fff;
+          transition: all 0.5s ease-in-out;
+        }
+
+        > img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: center;
+          box-shadow: 2px 1px 5px 1px #000000f8;
+        }
+      }
+
+      .home__card__txt {
+        height: 35%;
+        width: 100%;
+        padding: 2px 10px;
+        align-content: center;
+
+        h2 {
+          font-size: 18px;
+          font-weight: 700;
+        }
+
+        h4 {
+          font-size: 16px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

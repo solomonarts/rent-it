@@ -1,0 +1,125 @@
+{
+	"notifications": [
+		{
+			"id": "1",
+			"author": {
+				"name": "Solomon",
+				"src": "avatar-angela-gray.webp",
+				"href": "#"
+			},
+			"text": "Posted new Appartment",
+			"link": {
+				"text": "Kk Courts",
+				"href": "/single-home"
+			},
+			"time": "21 Hours ago",
+			"isUnread": true
+		},
+		{
+			"id": "2",
+			"author": {
+				"name": "Solomon",
+				"src": "avatar-anna-kim.webp",
+				"href": "#"
+			},
+			"text": "House in kira is no longer available",
+			"link": {
+				"text": "Kk Courts",
+				"href": "/single-home"
+			},
+			"time": "2 weeks ago",
+			"isUnread": true
+		},
+		{
+			"id": "3",
+			"author": {
+				"name": "Solomon",
+				"src": "avatar-jacob-thompson.webp",
+				"href": "#"
+			},
+			"text": "Posted new Appartment",
+			"link": {
+				"text": "Kk Courts",
+				"href": "/single-home"
+			},
+			"time": "5 Hours ago",
+			"isUnread": false
+		},
+		{
+			"id": "4",
+			"author": {
+				"name": "Solomon",
+				"src": "avatar-limberly-smith.webp",
+				"href": "#"
+			},
+			"text": "Posted new stand-alone",
+			"link": {
+				"text": "Kk Courts",
+				"href": "/single-home"
+			},
+			"time": "2 days ago",
+			"isUnread": true
+		},
+		{
+			"id": "5",
+			"author": {
+				"name": "Solomon",
+				"src": "avatar-mark-webber.webp",
+				"href": "#"
+			},
+			"text": "Posted new Appartment",
+			"link": {
+				"text": "Kk Courts",
+				"href": "/single-home"
+			},
+			"time": "21 days ago",
+			"privateMessage": "Vestibulum nunc massa, gravida quis porta nec, feugiat id metus. Nunc ac arcu dolor, quis vestibulum leo. Cras viverra mollis ipsum, non rhoncus lectus aliquam et. Morbi faucibus purus sit amet lacus aliquet elementum. Donec sit amet posuere enim. Cras in eros id tortor fringilla ultricies. Mauris faucibus ullamcorper velit, pulvinar varius odio",
+			"isUnread": false
+		},
+		{
+			"id": "6",
+			"author": {
+				"name": "Solomon",
+				"src": "avatar-nathan-peterson.webp",
+				"href": "#"
+			},
+			"text": "Posted new Semi-detatched house",
+			"link": {
+				"text": "Kk Courts",
+				"href": "/single-home"
+			},
+			"time": "2 months ago",
+			"isUnread": false
+		},
+		{
+			"id": "7",
+			"author": {
+				"name": "Solomon",
+				"src": "avatar-rizky-hasanuddin.webp",
+				"href": "#"
+			},
+			"text": "New stand alone house available in kungu",
+			"link": {
+				"text": "Kk Courts",
+				"href": "/single-home"
+			},
+			"time": "1 week ago",
+			"isUnread": true
+		},
+		{
+			"id": "8",
+			"author": {
+				"name": "Solomon",
+				"src": "avatar-jacob-thompson.webp",
+				"href": "#"
+			},
+			"text": "Posted new Single room",
+			"link": {
+				"text": "Kk Courts",
+				"href": "/single-home"
+			},
+			"time": "2 Hours ago",
+			"isUnread": false
+		}
+	]
+}
